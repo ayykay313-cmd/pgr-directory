@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PGR Directory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-inner">
+      <p class="eyebrow">Community Services</p>
+      <h1 class="brand">PGR Directory</h1>
+      <p class="tagline">Trusted providers, recommended by your neighbours</p>
+
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Search by name, category, or keyword…"
+          autocomplete="off"
+          aria-label="Search providers"
+        />
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Category Tabs ───────────────────────────────────── -->
+  <div class="tabs-bar">
+    <div class="tabs" id="tabs" role="tablist" aria-label="Filter by category">
+      <button class="tab tab--active" data-cat="all"               role="tab" aria-selected="true">✦ All</button>
+      <button class="tab"             data-cat="Cook"              role="tab" aria-selected="false">🍳 Cook</button>
+      <button class="tab"             data-cat="Cleaner/Maid"      role="tab" aria-selected="false">🧹 Cleaner / Maid</button>
+      <button class="tab"             data-cat="Tailor"            role="tab" aria-selected="false">✂️ Tailor</button>
+      <button class="tab"             data-cat="Massage"           role="tab" aria-selected="false">💆 Massage</button>
+      <button class="tab"             data-cat="Beauty/Parlour"    role="tab" aria-selected="false">💅 Beauty / Parlour</button>
+      <button class="tab"             data-cat="Food"              role="tab" aria-selected="false">🍱 Food</button>
+      <button class="tab"             data-cat="Pharmacy"          role="tab" aria-selected="false">💊 Pharmacy</button>
+      <button class="tab"             data-cat="Plumber/Handyman"  role="tab" aria-selected="false">🔧 Plumber / Handyman</button>
+      <button class="tab"             data-cat="Tutor"             role="tab" aria-selected="false">📚 Tutor</button>
+      <button class="tab"             data-cat="Fitness"           role="tab" aria-selected="false">💪 Fitness</button>
+      <button class="tab"             data-cat="Healthcare"        role="tab" aria-selected="false">🏥 Healthcare</button>
+    </div>
+  </div>
+
+  <!-- ── Results ────────────────────────────────────────── -->
+  <main class="main">
+    <p class="result-count" id="resultCount" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+
+    <div class="empty-state" id="emptyState" hidden>
+      <div class="empty-icon">🔍</div>
+      <p class="empty-title">No providers found</p>
+      <p class="empty-sub">Try a different search or category</p>
+    </div>
+  </main>
+
+  <!-- ── Footer ────────────────────────────────────────── -->
+  <footer class="footer">
+    PGR Directory &middot; Community-powered
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd.exe /c \"dir /b \"\"C:\\\\Users\\\\Additeya\\\\Desktop\\\\Claude Code\\\\PGR Directory\"\"\")",
+      "Bash(cmd.exe /c \"dir /b /s \"\"C:\\\\Users\\\\Additeya\\\\Desktop\\\\Claude Code\\\\PGR Directory\"\" 2>&1\")"
+    ]
+  }
+}
