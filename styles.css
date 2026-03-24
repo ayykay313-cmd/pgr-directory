@@ -251,6 +251,7 @@ body {
   white-space: nowrap;
 }
 
+/* existing categories */
 .badge-cook        { background: #FFF7ED; color: #C2410C; border-color: #FED7AA; }
 .badge-cleaner     { background: #F0F9FF; color: #0369A1; border-color: #BAE6FD; }
 .badge-tailor      { background: #F5F3FF; color: #5B21B6; border-color: #DDD6FE; }
@@ -263,6 +264,21 @@ body {
 .badge-fitness     { background: #ECFDF5; color: #065F46; border-color: #A7F3D0; }
 .badge-healthcare  { background: #ECFEFF; color: #155E75; border-color: #A5F3FC; }
 .badge-other       { background: #F5F5F4; color: #57534E; border-color: #D6D3D1; }
+/* new categories */
+.badge-interior    { background: #FFF8F1; color: #92400E; border-color: #FDE68A; }
+.badge-carpenter   { background: #FFFBEB; color: #92400E; border-color: #FCD34D; }
+.badge-ac-maint    { background: #F0F9FF; color: #075985; border-color: #7DD3FC; }
+.badge-ac-tech     { background: #EFF6FF; color: #1D4ED8; border-color: #BFDBFE; }
+.badge-ac-clean    { background: #F0FDFF; color: #0E7490; border-color: #A5F3FC; }
+.badge-electrician { background: #FEFCE8; color: #854D0E; border-color: #FDE047; }
+.badge-appliance   { background: #F8FAFC; color: #334155; border-color: #CBD5E1; }
+.badge-pest        { background: #F0FDF4; color: #166534; border-color: #86EFAC; }
+.badge-courier     { background: #FFF7ED; color: #9A3412; border-color: #FDBA74; }
+.badge-driver      { background: #F8F4FF; color: #6D28D9; border-color: #C4B5FD; }
+.badge-travel      { background: #EFF6FF; color: #1E40AF; border-color: #93C5FD; }
+.badge-car         { background: #F1F5F9; color: #1E293B; border-color: #94A3B8; }
+.badge-shopping    { background: #FDF2F8; color: #9D174D; border-color: #F9A8D4; }
+.badge-legal       { background: #FAFAF9; color: #292524; border-color: #A8A29E; }
 
 /* ── Card notes ───────────────────────────────────────────── */
 .card-notes {

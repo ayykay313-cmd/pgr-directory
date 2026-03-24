@@ -116,14 +116,14 @@ const providers = [
   {
     "name": "Dynastiq Alka",
     "phone": "+971 55 625 4545",
-    "category": "Food",
+    "category": "Home-based Food",
     "notes": "Pure Veg, Satvik and Jain catering. Specialties: sweets, catering, boxed meals, seasonal items like Undhiyu. Delivery across Dubai, Sharjah and Ajman.",
     "recommended_by": "Multiple residents"
   },
   {
     "name": "Avinash Paneer",
     "phone": "+971 55 848 7665",
-    "category": "Food",
+    "category": "Home-based Food",
     "notes": "Fresh paneer supplier.",
     "recommended_by": "Resident"
   },
@@ -182,22 +182,491 @@ const providers = [
     "category": "Healthcare",
     "notes": "Dental clinic. Dr. Manish handles extractions and implants. Dr. Akhil is great with kids. Highly recommended by multiple residents.",
     "recommended_by": "Multiple residents"
+  },
+
+  // ── Interior Design ──────────────────────────────────────────────────────────
+  {
+    "name": "Perfect Interiors – Mr. Mahi",
+    "phone": "+971 50 465 4301",
+    "category": "Interior Design",
+    "notes": "Done many apartments in PGR on time and with good quality. Recommended by multiple residents.",
+    "recommended_by": "Multiple residents"
+  },
+  {
+    "name": "Sneha – Interior Design",
+    "phone": "+971 55 843 2323",
+    "category": "Interior Design",
+    "notes": "Highly recommended by residents for interior work.",
+    "recommended_by": "Amit Mittal"
+  },
+  {
+    "name": "Wonderwall Interiors – Ronak Shah",
+    "phone": "+971 52 908 9067",
+    "category": "Interior Design",
+    "notes": "Interior design company used by PGR residents.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Abazer Interiors – Ms. Insia",
+    "phone": "+971 55 177 0759",
+    "category": "Interior Design",
+    "notes": "Reliable, reasonable and trustworthy. Done interior design work in PGR.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Reshmika Shekhar – Interior Designer",
+    "phone": "+971 55 823 2735",
+    "category": "Interior Design",
+    "notes": "Lives in Tower A. Can assist with interior design and software renders.",
+    "recommended_by": "Shekhar"
+  },
+  {
+    "name": "Insiya – Interior Designer",
+    "phone": "+971 50 786 4065",
+    "category": "Interior Design",
+    "notes": "Interior decorator recommended for showcase and wall interior work.",
+    "recommended_by": "Rakesh CA PGR"
+  },
+
+  // ── Carpenter ────────────────────────────────────────────────────────────────
+  {
+    "name": "Ramesh – Carpenter",
+    "phone": "+971 55 493 5246",
+    "category": "Carpenter",
+    "notes": "Recommended for carpentry and entrance modifications. Reference: Shalini Bhatnagar, D 2204.",
+    "recommended_by": "Yogi Bhatnagar"
+  },
+  {
+    "name": "Anas – Carpenter",
+    "phone": "+971 50 840 5493",
+    "category": "Carpenter",
+    "notes": "Carpenter for home modifications.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Nadeem – Tile / Marble Fitter",
+    "phone": "+971 55 339 2527",
+    "category": "Carpenter",
+    "notes": "Marble floor tile fitting. Can provide quote.",
+    "recommended_by": "Nilesh Trivedi"
+  },
+
+  // ── Plumber / Handyman ───────────────────────────────────────────────────────
+  {
+    "name": "Rameez Khan – Plumber / Maintenance",
+    "phone": "+971 50 962 7595",
+    "category": "Plumber / Handyman",
+    "notes": "Called for ceiling leakage repair, did a decent job.",
+    "recommended_by": "Pankaj (D Tower)"
+  },
+  {
+    "name": "Gnaneshwar – Plumber / Geyser",
+    "phone": "+971 58 611 6759",
+    "category": "Plumber / Handyman",
+    "notes": "Geyser installation specialist. Recommended by PGR OC member.",
+    "recommended_by": "Praveen Merudi (OC)"
+  },
+  {
+    "name": "East Coast Services – Thomas",
+    "phone": "+971 4 396 2000",
+    "category": "Plumber / Handyman",
+    "notes": "Recommended for dishwasher and plumbing fixes.",
+    "recommended_by": "Geogy John"
+  },
+  {
+    "name": "Valerian",
+    "phone": "+971 52 239 7041",
+    "category": "Plumber / Handyman",
+    "notes": "Handyman recommended by resident.",
+    "recommended_by": "Ashok Menezes"
+  },
+  {
+    "name": "Vibin – Flynet / Mosquito Mesh",
+    "phone": "+971 52 303 2464",
+    "category": "Plumber / Handyman",
+    "notes": "Flynet and mosquito mesh installation and replacement.",
+    "recommended_by": "Vikas Gupta"
+  },
+
+  // ── AC / Home Maintenance ────────────────────────────────────────────────────
+  {
+    "name": "Chris – Projexive AC & Home Maintenance",
+    "phone": "+971 55 974 1054",
+    "category": "AC & Maintenance",
+    "notes": "Annual Maintenance Contract (AMC) widely used in PGR. Covers AC, plumbing, electrical. Bronze ~AED 1200/yr, Silver ~AED 1500/yr.",
+    "recommended_by": "Multiple residents"
+  },
+  {
+    "name": "Inaya – Building Maintenance (Ganesh)",
+    "phone": "+971 50 289 6023",
+    "category": "AC & Maintenance",
+    "notes": "PGR building maintenance contact. Good for AC cleaning and apartment repairs.",
+    "recommended_by": "Harish Shankla"
+  },
+  {
+    "name": "Emrill – Building Maintenance",
+    "phone": "+971 50 547 8465",
+    "category": "AC & Maintenance",
+    "notes": "Current WCM maintenance company for PGR. Send photos via WhatsApp for complaints and they respond.",
+    "recommended_by": "Hamid"
+  },
+
+  // ── AC Technician ────────────────────────────────────────────────────────────
+  {
+    "name": "Jinu – AC Technician",
+    "phone": "+971 55 345 6869",
+    "category": "AC & Maintenance",
+    "notes": "Safari Jinu – recommended for AC work by multiple residents.",
+    "recommended_by": "Geogy John"
+  },
+  {
+    "name": "Mr. Asif – Inaya AC",
+    "phone": "+971 54 771 5829",
+    "category": "AC & Maintenance",
+    "notes": "Inaya contact for AC cleaning and maintenance.",
+    "recommended_by": "Shahid"
+  },
+
+  // ── AC Cleaning ──────────────────────────────────────────────────────────────
+  {
+    "name": "Edge Integrated Technical Services",
+    "phone": "+971 56 433 4877",
+    "category": "AC & Maintenance",
+    "notes": "AED 250 per AC unit, AED 750+VAT for full 3-unit apartment. Good and respectful service.",
+    "recommended_by": "Nawab Mirza, Ramesh"
+  },
+
+  // ── Electrician ──────────────────────────────────────────────────────────────
+  {
+    "name": "Spark Electrical Equipment LLC",
+    "phone": "+971 4 339 3622",
+    "category": "AC & Maintenance",
+    "notes": "Electrical work. Used by Pankaj for both his PGR apartments.",
+    "recommended_by": "Pankaj (D Tower)"
+  },
+  {
+    "name": "Mr. Chintan – CCTV Installation",
+    "phone": "+971 56 460 3616",
+    "category": "AC & Maintenance",
+    "notes": "CCTV installation at home.",
+    "recommended_by": "Manoj Barai"
+  },
+
+  // ── Appliance Repair ─────────────────────────────────────────────────────────
+  {
+    "name": "Haaji Ameer General Trading",
+    "phone": "+971 55 501 3384",
+    "category": "AC & Maintenance",
+    "notes": "Near ADCB metro station, next to Amaravathi restaurant in Karama. Repairs mixer grinders, blenders and small appliances.",
+    "recommended_by": "Vikram"
+  },
+  {
+    "name": "Washing Machine Technician",
+    "phone": "+971 50 305 4686",
+    "category": "AC & Maintenance",
+    "notes": "Recommended for washing machine repairs.",
+    "recommended_by": "JG (resident)"
+  },
+
+  // ── Pest Control ─────────────────────────────────────────────────────────────
+  {
+    "name": "Amritpal Singh – Pest Control",
+    "phone": "+971 50 853 8268",
+    "category": "Pest Control",
+    "notes": "Pest control service recommended by resident.",
+    "recommended_by": "Anil Kangotra"
+  },
+
+  // ── Cleaner / Maid ───────────────────────────────────────────────────────────
+  {
+    "name": "Shreeniwaz – Household Helper",
+    "phone": "+971 56 376 1766",
+    "category": "Cleaner / Maid",
+    "notes": "Reliable and excellent at household tasks.",
+    "recommended_by": "Kunal Vaswani"
+  },
+  {
+    "name": "Nagraj – Cleaner",
+    "phone": null,
+    "category": "Cleaner / Maid",
+    "notes": "Honest and hardworking cleaner looking for work after 5pm. Contact via Sajan Bhatia (D 710).",
+    "recommended_by": "Sajan Bhatia"
+  },
+  {
+    "name": "Srikant – Cleaner",
+    "phone": null,
+    "category": "Cleaner / Maid",
+    "notes": "Good cleaner looking for work at PGR. Contact via Sajan Bhatia (D 710).",
+    "recommended_by": "Sajan Bhatia"
+  },
+  {
+    "name": "Helper – Cook / Cleaner / Nanny",
+    "phone": "+971 54 469 0014",
+    "category": "Cleaner / Maid",
+    "notes": "Available for cooking, nanny, cleaning and massage. AED 25/hour. Flexible timing.",
+    "recommended_by": "YoYo (Tower resident)"
+  },
+
+  // ── Cook ─────────────────────────────────────────────────────────────────────
+  {
+    "name": "Dhanalakshmi",
+    "phone": "+971 52 449 3285",
+    "category": "Cook",
+    "notes": "Can cook and clean. Currently working part time in Tower A.",
+    "recommended_by": "Shekhar"
+  },
+  {
+    "name": "Anand – Part-time Cook",
+    "phone": "+971 50 475 7949",
+    "category": "Cook",
+    "notes": "Part-time cook looking for work. Contact via Shekhar.",
+    "recommended_by": "Shekhar"
+  },
+  {
+    "name": "Pintu – Cook (Veg only)",
+    "phone": "+971 56 275 6308",
+    "category": "Cook",
+    "notes": "Vegetarian only. Freelance cook, available after 10am.",
+    "recommended_by": "Akshay Patwa"
+  },
+  {
+    "name": "Vikas – Cook",
+    "phone": "+971 56 954 5363",
+    "category": "Cook",
+    "notes": "Cook available for work in PGR.",
+    "recommended_by": "Akshay Patwa"
+  },
+  {
+    "name": "Cook – Veg / Non-Veg",
+    "phone": "+971 56 126 9251",
+    "category": "Cook",
+    "notes": "Cooks veg/non-veg, South Indian, Arabic cuisines. Available 6–8am and 8–10pm.",
+    "recommended_by": "Resident (Tower A group)"
+  },
+
+  // ── Home-based Food ──────────────────────────────────────────────────────────
+  {
+    "name": "Quirky Cravingz by Lehar (Mrs. Chandwani)",
+    "phone": null,
+    "category": "Home-based Food",
+    "notes": "Custom cakes. Tower A-1405. Highly praised – flavor was outstanding. Short notice accepted.",
+    "recommended_by": "Multiple residents"
+  },
+  {
+    "name": "Seoul Garden Restaurant",
+    "phone": "+971 4 337 7876",
+    "category": "Home-based Food",
+    "notes": "Korean restaurant owned by PGR resident Lee (Tower C 1303). Ask for Lee when visiting.",
+    "recommended_by": "Resident (Lee – C 1303)"
+  },
+
+  // ── Courier ──────────────────────────────────────────────────────────────────
+  {
+    "name": "Hussain Team Express",
+    "phone": "+971 50 595 5840",
+    "category": "Courier",
+    "notes": "Courier service recommended by resident.",
+    "recommended_by": "Ramesh"
+  },
+
+  // ── Driver ───────────────────────────────────────────────────────────────────
+  {
+    "name": "Nazir – Driver",
+    "phone": "+971 50 505 3370",
+    "category": "Driver",
+    "notes": "Reliable and trustworthy part-time driver for daily trips, airport transfers, short or medium term.",
+    "recommended_by": "Multiple residents"
+  },
+
+  // ── Travel / Visa ─────────────────────────────────────────────────────────────
+  {
+    "name": "Avinash Adnani – Pluto Travel",
+    "phone": "+971 55 700 8000",
+    "category": "Travel / Visa",
+    "notes": "Visa, tickets and holiday packages. Reasonable, committed and highly reliable.",
+    "recommended_by": "Ghana"
+  },
+
+  // ── Healthcare ───────────────────────────────────────────────────────────────
+  {
+    "name": "Dr. Kaiser Raja – Gastroenterologist",
+    "phone": "+971 55 718 1328",
+    "category": "Healthcare",
+    "notes": "Gastro doctor recommended by resident.",
+    "recommended_by": "Daniel"
+  },
+  {
+    "name": "Dr. Subash Walkhinde – Dermatologist",
+    "phone": "+971 800 1999",
+    "category": "Healthcare",
+    "notes": "Dermatology specialist at Mediclinic Welcare Hospital. Call 800 1999 to book.",
+    "recommended_by": "LK"
+  },
+
+  // ── Tutor ────────────────────────────────────────────────────────────────────
+  {
+    "name": "Coach Thaha – Football Coach",
+    "phone": "+971 50 222 3801",
+    "category": "Tutor",
+    "notes": "Football coach. AED 340 for 8 classes, 5–6pm. Coaches 10-year-olds and above.",
+    "recommended_by": "Chetan Bhatia"
+  },
+  {
+    "name": "Anaswara – Art / Drawing Teacher",
+    "phone": "+971 56 504 2105",
+    "category": "Tutor",
+    "notes": "Drawing and painting classes for kids.",
+    "recommended_by": "Pradeep Nambiar"
+  },
+
+  // ── Fitness ──────────────────────────────────────────────────────────────────
+  {
+    "name": "Slayfit Fitness",
+    "phone": "+971 58 505 5160",
+    "category": "Fitness",
+    "notes": "Fitness coaches assigned to the PGR community. Visible results reported. Highly recommended by OC member.",
+    "recommended_by": "Niraj Bachani (OC)"
+  },
+
+  // ── Car Services ─────────────────────────────────────────────────────────────
+  {
+    "name": "Kumar – Car Wash",
+    "phone": "+971 56 756 2720",
+    "category": "Car Services",
+    "notes": "Car cleaning service.",
+    "recommended_by": "Ramesh"
+  },
+  {
+    "name": "Nandu – Car Wash",
+    "phone": "+971 54 766 2243",
+    "category": "Car Services",
+    "notes": "Car cleaning service.",
+    "recommended_by": "Ramesh"
+  },
+  {
+    "name": "Three Horses Garage",
+    "phone": "+971 4 286 7667",
+    "category": "Car Services",
+    "notes": "Car garage and repair service.",
+    "recommended_by": "Michaelangelo"
+  },
+  {
+    "name": "Autocare – 3M Car Tinting",
+    "phone": "+971 50 821 4093",
+    "category": "Car Services",
+    "notes": "Original 3M film car window tinting.",
+    "recommended_by": "Vikram"
+  },
+  {
+    "name": "Car Battery Service",
+    "phone": "+971 54 305 8660",
+    "category": "Car Services",
+    "notes": "Car battery replacement and service.",
+    "recommended_by": "Shekhar"
+  },
+  {
+    "name": "LEZOF Tyres – Nad Al Hammar",
+    "phone": null,
+    "category": "Car Services",
+    "notes": "Highly recommended for best tyre prices, excellent service, modern equipment. Free monthly nitrogen refill.",
+    "recommended_by": "Yogi Bhatnagar"
+  },
+  {
+    "name": "Isaac's Garage (Isaac – B809)",
+    "phone": "+971 50 671 5199",
+    "category": "Car Services",
+    "notes": "PGR resident (B809) with his own workshop. Best deal if you mention Saravanan V as reference.",
+    "recommended_by": "Saravanan V."
+  },
+
+  // ── Shopping ─────────────────────────────────────────────────────────────────
+  {
+    "name": "NQCart – Water Heater Supplier",
+    "phone": "+971 50 164 3123",
+    "category": "Shopping",
+    "notes": "Ariston water heaters at competitive prices. Free home delivery. Website: nqcart.ae",
+    "recommended_by": "Mani Usha, Ashok Menezes"
+  },
+  {
+    "name": "Green Circle Building Materials",
+    "phone": "+971 4 326 4222",
+    "category": "Shopping",
+    "notes": "Khalid bin Waleed Street. Good prices on water heaters and building materials.",
+    "recommended_by": "Mothers Choice Trading"
+  },
+  {
+    "name": "Petrosafe – Gas Sensors",
+    "phone": "+971 50 257 3388",
+    "category": "Shopping",
+    "notes": "Gas leak sensors and gas-related services for apartments.",
+    "recommended_by": "Sada"
+  },
+  {
+    "name": "Al Habib – Chair / Furniture Rental",
+    "phone": "+971 55 251 5183",
+    "category": "Shopping",
+    "notes": "Chair and furniture rental.",
+    "recommended_by": "Jayesh Jain"
+  },
+  {
+    "name": "Mohammed Zainal Faraidooni LLC",
+    "phone": "+971 4 262 6555",
+    "category": "Shopping",
+    "notes": "Grohe plumbing fixtures and fittings supplier in Deira.",
+    "recommended_by": "Jaydeep Datir"
+  },
+
+  // ── Legal ────────────────────────────────────────────────────────────────────
+  {
+    "name": "Trench Law – Cynthia Trench",
+    "phone": "+971 4 355 3146",
+    "category": "Legal",
+    "notes": "Legal firm in Dubai. Recommended for property and legal matters.",
+    "recommended_by": "Yogi Bhatnagar"
+  },
+  {
+    "name": "Tariq – Legal Consultant",
+    "phone": "+971 52 288 5507",
+    "category": "Legal",
+    "notes": "Legal consultant at Yousyf Al Hammadi legal firm.",
+    "recommended_by": "Rajesh Lalwani"
+  },
+
+  // ── Other ────────────────────────────────────────────────────────────────────
+  {
+    "name": "Sanjai – Recruiter",
+    "phone": "+971 50 272 9896",
+    "category": "Other",
+    "notes": "Recruitment agency contact in Dubai.",
+    "recommended_by": "Ashok Menezes"
   }
 ];
 
 // ─── Badge CSS class per category ────────────────────────────────────────────
+// Keys use the normalised form produced by normCat() (spaces around / removed)
 const BADGE_CLASS = {
-  'Cook':             'badge-cook',
-  'Cleaner/Maid':     'badge-cleaner',
-  'Tailor':           'badge-tailor',
-  'Massage':          'badge-massage',
-  'Beauty/Parlour':   'badge-beauty',
-  'Food':             'badge-food',
-  'Pharmacy':         'badge-pharmacy',
-  'Plumber/Handyman': 'badge-handyman',
-  'Tutor':            'badge-tutor',
-  'Fitness':          'badge-fitness',
-  'Healthcare':       'badge-healthcare',
+  'Cook':              'badge-cook',
+  'Cleaner/Maid':      'badge-cleaner',
+  'Tailor':            'badge-tailor',
+  'Massage':           'badge-massage',
+  'Beauty/Parlour':    'badge-beauty',
+  'Home-based Food':   'badge-food',
+  'Pharmacy':          'badge-pharmacy',
+  'Plumber/Handyman':  'badge-handyman',
+  'AC & Maintenance':  'badge-ac-maint',
+  'Interior Design':   'badge-interior',
+  'Carpenter':         'badge-carpenter',
+  'Tutor':             'badge-tutor',
+  'Fitness':           'badge-fitness',
+  'Healthcare':        'badge-healthcare',
+  'Pest Control':      'badge-pest',
+  'Courier':           'badge-courier',
+  'Driver':            'badge-driver',
+  'Travel/Visa':       'badge-travel',
+  'Car Services':      'badge-car',
+  'Shopping':          'badge-shopping',
+  'Legal':             'badge-legal',
+  'Other':             'badge-other',
 };
 
 // ─── State ────────────────────────────────────────────────────────────────────
