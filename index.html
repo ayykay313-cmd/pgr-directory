@@ -33,46 +33,52 @@
     </div>
   </header>
 
-  <!-- ── Category Tabs ───────────────────────────────────── -->
-  <div class="tabs-bar">
-    <div class="tabs" id="tabs" role="tablist" aria-label="Filter by category">
-      <button class="tab tab--active" data-cat="all"               role="tab" aria-selected="true" >✦ All</button>
-      <button class="tab"             data-cat="Cook"              role="tab" aria-selected="false">🍳 Cook</button>
-      <button class="tab"             data-cat="Cleaner/Maid"      role="tab" aria-selected="false">🧹 Cleaner / Maid</button>
-      <button class="tab"             data-cat="AC & Maintenance"  role="tab" aria-selected="false">❄️ AC & Maintenance</button>
-      <button class="tab"             data-cat="Plumber/Handyman"  role="tab" aria-selected="false">🔧 Plumber / Handyman</button>
-      <button class="tab"             data-cat="Carpenter"         role="tab" aria-selected="false">🪚 Carpenter</button>
-      <button class="tab"             data-cat="Interior Design"   role="tab" aria-selected="false">🛋️ Interior Design</button>
-      <button class="tab"             data-cat="Tailor"            role="tab" aria-selected="false">✂️ Tailor</button>
-      <button class="tab"             data-cat="Beauty/Parlour"    role="tab" aria-selected="false">💅 Beauty / Parlour</button>
-      <button class="tab"             data-cat="Massage"           role="tab" aria-selected="false">💆 Massage</button>
-      <button class="tab"             data-cat="Home-based Food"   role="tab" aria-selected="false">🍱 Home-based Food</button>
-      <button class="tab"             data-cat="Pharmacy"          role="tab" aria-selected="false">💊 Pharmacy</button>
-      <button class="tab"             data-cat="Car Services"      role="tab" aria-selected="false">🚗 Car Services</button>
-      <button class="tab"             data-cat="Driver"            role="tab" aria-selected="false">🚕 Driver</button>
-      <button class="tab"             data-cat="Tutor"             role="tab" aria-selected="false">📚 Tutor</button>
-      <button class="tab"             data-cat="Fitness"           role="tab" aria-selected="false">💪 Fitness</button>
-      <button class="tab"             data-cat="Healthcare"        role="tab" aria-selected="false">🏥 Healthcare</button>
-      <button class="tab"             data-cat="Pest Control"      role="tab" aria-selected="false">🐜 Pest Control</button>
-      <button class="tab"             data-cat="Courier"           role="tab" aria-selected="false">📦 Courier</button>
-      <button class="tab"             data-cat="Travel/Visa"       role="tab" aria-selected="false">✈️ Travel / Visa</button>
-      <button class="tab"             data-cat="Legal"             role="tab" aria-selected="false">⚖️ Legal</button>
-      <button class="tab"             data-cat="Shopping"          role="tab" aria-selected="false">🛍️ Shopping</button>
-      <button class="tab"             data-cat="Other"             role="tab" aria-selected="false">📌 Other</button>
-    </div>
-  </div>
+  <!-- ── Body layout (sidebar + content) ──────────────────── -->
+  <div class="layout">
 
-  <!-- ── Results ────────────────────────────────────────── -->
-  <main class="main">
-    <p class="result-count" id="resultCount" aria-live="polite"></p>
-    <div class="grid" id="grid"></div>
+    <!-- Sidebar: vertical on desktop, horizontal scroll bar on mobile -->
+    <aside class="sidebar-wrap">
+      <div class="tabs" id="tabs" role="tablist" aria-label="Filter by category">
+        <button class="tab tab--active" data-cat="all"               role="tab" aria-selected="true" >✦ All</button>
+        <button class="tab"             data-cat="Cook"              role="tab" aria-selected="false">🍳 Cook</button>
+        <button class="tab"             data-cat="Cleaner/Maid"      role="tab" aria-selected="false">🧹 Cleaner / Maid</button>
+        <button class="tab"             data-cat="AC & Maintenance"  role="tab" aria-selected="false">❄️ AC & Maintenance</button>
+        <button class="tab"             data-cat="Computers & IT"    role="tab" aria-selected="false">💻 Computers &amp; IT</button>
+        <button class="tab"             data-cat="Plumber/Handyman"  role="tab" aria-selected="false">🔧 Plumber / Handyman</button>
+        <button class="tab"             data-cat="Carpenter"         role="tab" aria-selected="false">🪚 Carpenter</button>
+        <button class="tab"             data-cat="Interior Design"   role="tab" aria-selected="false">🛋️ Interior Design</button>
+        <button class="tab"             data-cat="Tailor"            role="tab" aria-selected="false">✂️ Tailor</button>
+        <button class="tab"             data-cat="Beauty/Parlour"    role="tab" aria-selected="false">💅 Beauty / Parlour</button>
+        <button class="tab"             data-cat="Massage"           role="tab" aria-selected="false">💆 Massage</button>
+        <button class="tab"             data-cat="Home-based Food"   role="tab" aria-selected="false">🍱 Home-based Food</button>
+        <button class="tab"             data-cat="Pharmacy"          role="tab" aria-selected="false">💊 Pharmacy</button>
+        <button class="tab"             data-cat="Car Services"      role="tab" aria-selected="false">🚗 Car Services</button>
+        <button class="tab"             data-cat="Driver"            role="tab" aria-selected="false">🚕 Driver</button>
+        <button class="tab"             data-cat="Tutor"             role="tab" aria-selected="false">📚 Tutor</button>
+        <button class="tab"             data-cat="Fitness"           role="tab" aria-selected="false">💪 Fitness</button>
+        <button class="tab"             data-cat="Healthcare"        role="tab" aria-selected="false">🏥 Healthcare</button>
+        <button class="tab"             data-cat="Pest Control"      role="tab" aria-selected="false">🐜 Pest Control</button>
+        <button class="tab"             data-cat="Courier"           role="tab" aria-selected="false">📦 Courier</button>
+        <button class="tab"             data-cat="Travel/Visa"       role="tab" aria-selected="false">✈️ Travel / Visa</button>
+        <button class="tab"             data-cat="Legal"             role="tab" aria-selected="false">⚖️ Legal</button>
+        <button class="tab"             data-cat="Shopping"          role="tab" aria-selected="false">🛍️ Shopping</button>
+        <button class="tab"             data-cat="Other"             role="tab" aria-selected="false">📌 Other</button>
+      </div>
+    </aside>
 
-    <div class="empty-state" id="emptyState" hidden>
-      <div class="empty-icon">🔍</div>
-      <p class="empty-title">No providers found</p>
-      <p class="empty-sub">Try a different search or category</p>
-    </div>
-  </main>
+    <!-- ── Results ──────────────────────────────────────── -->
+    <main class="main">
+      <p class="result-count" id="resultCount" aria-live="polite"></p>
+      <div class="grid" id="grid"></div>
+
+      <div class="empty-state" id="emptyState" hidden>
+        <div class="empty-icon">🔍</div>
+        <p class="empty-title">No providers found</p>
+        <p class="empty-sub">Try a different search or category</p>
+      </div>
+    </main>
+
+  </div><!-- /.layout -->
 
   <!-- ── Footer ────────────────────────────────────────── -->
   <footer class="footer">
