@@ -801,20 +801,28 @@ function render() {
 }
 
 // ─── Events ───────────────────────────────────────────────────────────────────
-document.getElementById('searchInput').addEventListener('input', render);
 
-document.getElementById('tabs').addEventListener('click', e => {
-  const tab = e.target.closest('[data-cat]');
-  if (!tab) return;
-
-  activeCategory = tab.dataset.cat;
-
+/** Activate a category tab by its data-cat value and update ARIA state */
+function setActiveTab(cat) {
+  activeCategory = cat;
   document.querySelectorAll('.tab').forEach(t => {
-    const isActive = t === tab;
+    const isActive = t.dataset.cat === cat;
     t.classList.toggle('tab--active', isActive);
     t.setAttribute('aria-selected', isActive ? 'true' : 'false');
   });
+}
 
+// When the user types, switch to "All" so results span every category
+document.getElementById('searchInput').addEventListener('input', e => {
+  if (e.target.value.trim()) setActiveTab('all');
+  render();
+});
+
+// Tab clicks apply a category filter (only effective when search is empty)
+document.getElementById('tabs').addEventListener('click', e => {
+  const tab = e.target.closest('[data-cat]');
+  if (!tab) return;
+  setActiveTab(tab.dataset.cat);
   render();
 });
 
