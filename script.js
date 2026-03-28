@@ -100,6 +100,13 @@ const providers = [
     "recommended_by": "Resident"
   },
   {
+    "name": "Nutan Massage",
+    "phone": "+971 55 674 9781",
+    "category": "Massage",
+    "notes": "Deep tissue massage. Highly recommended for ladies.",
+    "recommended_by": "Resident"
+  },
+  {
     "name": "Anita Goswami",
     "phone": "+971 56 781 7828",
     "category": "Beauty / Parlour",
@@ -250,6 +257,13 @@ const providers = [
     "notes": "Marble floor tile fitting. Can provide quote.",
     "recommended_by": "Nilesh Trivedi"
   },
+  {
+    "name": "Mandeep Singh – Carpentry @ Souq Al Kabeer",
+    "phone": "+971 52 519 4211",
+    "category": "Carpenter",
+    "notes": "Carpentry works — supply and fixing of additional wardrobes, lofts, bookshelves, and shoe racks.",
+    "recommended_by": "Resident"
+  },
 
   // ── Plumber / Handyman ───────────────────────────────────────────────────────
   {
@@ -286,6 +300,20 @@ const providers = [
     "category": "Plumber / Handyman",
     "notes": "Flynet and mosquito mesh installation and replacement.",
     "recommended_by": "Vikas Gupta"
+  },
+  {
+    "name": "Suhail – Schwab Flush (PGR)",
+    "phone": "+971 54 449 0106",
+    "category": "Plumber / Handyman",
+    "notes": "Schwab commode flush plate supplier and replacement/repair.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Nadeem Painter – Al Sekoun Al Hadi Plaster",
+    "phone": "+971 55 339 2527",
+    "category": "Plumber / Handyman",
+    "notes": "Wall, ceiling, and door frame painting services at PGR.",
+    "recommended_by": "Resident"
   },
 
   // ── AC / Home Maintenance ────────────────────────────────────────────────────
@@ -367,6 +395,13 @@ const providers = [
     "notes": "Recommended for washing machine repairs.",
     "recommended_by": "JG (resident)"
   },
+  {
+    "name": "Inaya Plus Helpdesk",
+    "phone": "+971 56 538 1311",
+    "category": "AC & Maintenance",
+    "notes": "Apartment maintenance and service provider. Main maintenance contact for PGR.",
+    "recommended_by": "Resident"
+  },
 
   // ── Pest Control ─────────────────────────────────────────────────────────────
   {
@@ -405,6 +440,13 @@ const providers = [
     "category": "Cleaner / Maid",
     "notes": "Available for cooking, nanny, cleaning and massage. AED 25/hour. Flexible timing.",
     "recommended_by": "YoYo (Tower resident)"
+  },
+  {
+    "name": "Dhanalakshmi (Dhanam)",
+    "phone": "+971 55 659 0582",
+    "category": "Cleaner / Maid",
+    "notes": "Reliable domestic help, baby care, and South Indian cooking. Tamil speaking.",
+    "recommended_by": "Resident"
   },
 
   // ── Cook ─────────────────────────────────────────────────────────────────────
@@ -648,6 +690,20 @@ const providers = [
     "category": "Other",
     "notes": "Recruitment agency contact in Dubai.",
     "recommended_by": "Ashok Menezes"
+  },
+  {
+    "name": "Aziz Laundry",
+    "phone": "+971 50 577 1051",
+    "category": "Other",
+    "notes": "Laundry service.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "King Star Laundry – Zabeel",
+    "phone": "+971 50 688 1755",
+    "category": "Other",
+    "notes": "Laundry service – Zabeel area.",
+    "recommended_by": "Resident"
   }
 ];
 
