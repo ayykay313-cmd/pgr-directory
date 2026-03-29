@@ -264,6 +264,20 @@ const providers = [
     "notes": "Carpentry works — supply and fixing of additional wardrobes, lofts, bookshelves, and shoe racks.",
     "recommended_by": "Resident"
   },
+  {
+    "name": "Rajesh – PGR Carpenter",
+    "phone": "+971 58 960 5128",
+    "category": "Carpenter",
+    "notes": "Carpentry works at PGR.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Aluminum & Carpentry Works – Ramzan / Akbar / Shafqat",
+    "phone": "+971 55 232 3095",
+    "category": "Carpenter",
+    "notes": "Aluminum and carpentry works.",
+    "recommended_by": "Resident"
+  },
 
   // ── Plumber / Handyman ───────────────────────────────────────────────────────
   {
@@ -313,6 +327,27 @@ const providers = [
     "phone": "+971 55 339 2527",
     "category": "Plumber / Handyman",
     "notes": "Wall, ceiling, and door frame painting services at PGR.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Ravindra Bhai – Plumber",
+    "phone": "+971 58 905 3334",
+    "category": "Plumber / Handyman",
+    "notes": "Plumbing works.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Sreedeep Nair – Painter",
+    "phone": "+971 55 465 6849 / +971 50 993 9944",
+    "category": "Plumber / Handyman",
+    "notes": "Painting works.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Flynet 2025 – Raasik Net",
+    "phone": "+971 52 524 3501",
+    "category": "Plumber / Handyman",
+    "notes": "Flynet and balcony net supplier and installer.",
     "recommended_by": "Resident"
   },
 
@@ -402,6 +437,27 @@ const providers = [
     "notes": "Apartment maintenance and service provider. Main maintenance contact for PGR.",
     "recommended_by": "Resident"
   },
+  {
+    "name": "Jagyasi – Inaya Heater Representative",
+    "phone": "+971 55 355 9310",
+    "category": "AC & Maintenance",
+    "notes": "Inaya contact for water heater and geyser services at PGR.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Samiuddin – Umar Inaya Plus (AC Supervisor)",
+    "phone": "+971 56 406 1016",
+    "category": "AC & Maintenance",
+    "notes": "Inaya Plus AC supervisor. Contact for any AC services.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Sufiyan – AMC for AC Work",
+    "phone": "+971 50 904 7541",
+    "category": "AC & Maintenance",
+    "notes": "Annual Maintenance Contract (AMC) for AC work.",
+    "recommended_by": "Resident"
+  },
 
   // ── Pest Control ─────────────────────────────────────────────────────────────
   {
@@ -448,6 +504,13 @@ const providers = [
     "notes": "Reliable domestic help, baby care, and South Indian cooking. Tamil speaking.",
     "recommended_by": "Resident"
   },
+  {
+    "name": "Bamsi – Cleaner",
+    "phone": "+971 55 318 4846",
+    "category": "Cleaner / Maid",
+    "notes": "Good male cleaner, efficient and hardworking.",
+    "recommended_by": "Resident"
+  },
 
   // ── Cook ─────────────────────────────────────────────────────────────────────
   {
@@ -485,6 +548,13 @@ const providers = [
     "notes": "Cooks veg/non-veg, South Indian, Arabic cuisines. Available 6–8am and 8–10pm.",
     "recommended_by": "Resident (Tower A group)"
   },
+  {
+    "name": "Nirmala Cook",
+    "phone": "+971 56 593 6269",
+    "category": "Cook",
+    "notes": "Indian cook skilled in both North Indian and South Indian cuisine. Available 6:00 am – 11:00 am. Very punctual.",
+    "recommended_by": "Resident"
+  },
 
   // ── Home-based Food ──────────────────────────────────────────────────────────
   {
@@ -518,6 +588,13 @@ const providers = [
     "category": "Driver",
     "notes": "Reliable and trustworthy part-time driver for daily trips, airport transfers, short or medium term.",
     "recommended_by": "Multiple residents"
+  },
+  {
+    "name": "Jehanzeb – Driver",
+    "phone": "+971 55 416 5544",
+    "category": "Driver",
+    "notes": "Available for school drops, random pick-ups and drop-offs, and general errands.",
+    "recommended_by": "Resident"
   },
 
   // ── Travel / Visa ─────────────────────────────────────────────────────────────
@@ -656,6 +733,27 @@ const providers = [
     "category": "Shopping",
     "notes": "Grohe plumbing fixtures and fittings supplier in Deira.",
     "recommended_by": "Jaydeep Datir"
+  },
+  {
+    "name": "Castle Refrigeration Equipment Trading LLC",
+    "phone": "+971 4 224 7711 / +971 50 446 9761",
+    "category": "Shopping",
+    "notes": "Refrigeration equipment trading company.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Zenith Water Heater – PGR",
+    "phone": "+971 56 768 8878",
+    "category": "Shopping",
+    "notes": "Water heater supplier for PGR.",
+    "recommended_by": "Resident"
+  },
+  {
+    "name": "Mega City Building Material Trading",
+    "phone": "+971 4 347 3665",
+    "category": "Shopping",
+    "notes": "Aluminum door handles and building materials. Located in Bur Dubai.",
+    "recommended_by": "Resident"
   },
 
   // ── Legal ────────────────────────────────────────────────────────────────────
